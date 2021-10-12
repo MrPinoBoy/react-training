@@ -1,0 +1,60 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: rgb(243, 243, 243);
+  border-bottom: 1px solid lightgrey;
+  padding-left: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+.todo-input {
+  background-color: rgb(243, 243, 243);
+  border: 1px solid lightgrey;
+  border-radius: 5px 5px 5px 5px;
+  width: 200px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.todo-submit {
+  background-color: rgb(51, 98, 253);
+  font-size: 20px;
+  font-weight: 00;
+  color: white;
+  width: fit-content;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.list-section {
+  margin: 0 2rem;
+}
+
+.list-title {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  font-weight: 600;
+}
